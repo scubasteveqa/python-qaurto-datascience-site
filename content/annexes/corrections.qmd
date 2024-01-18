@@ -1,0 +1,164 @@
+---
+title: "Corrections"
+slug: corrections
+description: |
+  Notebooks corrigés des différents chapitres du cours
+echo: false
+image: https://minio.lab.sspcloud.fr/lgaliana/generative-art/pythonds/classroom.png
+---
+
+:::: {.content-visible when-format="html"}
+{{< include "../../build/_printBadges.qmd" >}}
+
+
+Seules les chapitres dont les corrections ne sont pas apparentes sont listés sur cette page.
+
+
+
+## Partie 1: manipuler des données
+
+* [Retour sur `Numpy`](../manipulation/01_numpy.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/manipulation/01_numpy.qmd", correction: true})}`
+```
+
+* [Exercices `Pandas`](../manipulation/02b_pandas_TP.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/manipulation/02b_pandas_TP.qmd", correction: true})}`
+```
+
+
+* [Exercices `Geopandas`](../manipulation/03_geopandas_TP.qmd) :
+
+```{ojs}
+html`${printBadges({fpath: "content/manipulation/03_geopandas_TP.qmd", correction: true})}`
+```
+
+* [Exercices _webscraping_](../manipulation/04a_webscraping_TP.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/manipulation/04a_webscraping_TP.qmd", correction: true})}`
+```
+
+
+* [Exercices expressions régulières](../manipulation/04b_regex_TP.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/manipulation/04b_regex_TP.qmd", correction: true})}`
+```
+
+
+* [Exercices API](../manipulation/04c_API_TP.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/manipulation/04c_API_TP.qmd", correction: true})}`
+```
+
+## Partie 2: visualiser les données
+
+* [Exercices graphiques classiques](../visualisation/matplotlib.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/visualisation/matplotlib.qmd", correction: true})}`
+```
+
+
+* [Exercices sur la cartographie](../visualisation/maps.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/visualisation/maps.qmd", correction: true})}`
+```
+
+
+
+## Partie 3: modéliser
+
+* [Exercices sur le _preprocessing_](../modelisation/0_preprocessing.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/modelisation/0_preprocessing.qmd", correction: true})}`
+```
+
+* [Exercices sur l'évaluation des modèles](../modelisation/1_modelevaluation.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/modelisation/1_modelevaluation.qmd", correction: true})}`
+```
+
+
+* [Exercices sur la classification](../modelisation/2_SVM.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/modelisation/2_SVM.qmd", correction: true})}`
+```
+
+* [Exercices sur la régression](../modelisation/3_regression.qmd)
+
+
+```{ojs}
+html`${printBadges({fpath: "content/modelisation/3_regression.qmd", correction: true})}`
+```
+
+* [Exercices sur la sélection de variables](../modelisation/4_featureselection.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/modelisation/4_featureselection.qmd", correction: true})}`
+```
+
+* [Exercices sur le _clustering_](../modelisation/5_clustering.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/manipulation/5_clustering.qmd", correction: true})}`
+```
+
+* [Exercices sur les _pipelines_](../modelisation/6_pipeline.qmd)
+
+
+```{ojs}
+html`${printBadges({fpath: "content/manipulation/6_pipeline.qmd", correction: true})}`
+```
+
+
+## Partie 4: Natural Language Processing (NLP)
+
+* [Découverte des enjeux du NLP](../NLP/01_intro.qmd)
+
+
+```{ojs}
+html`${printBadges({fpath: "content/NLP/01_intro.qmd", correction: true})}`
+```
+
+* [Mise en pratique de l'approche _bag of words_](../NLP/02_exoclean.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/NLP/02_exoclean.qmd", correction: true})}`
+```
+
+* [Exercices sur la _latent dirichlet allocation_](../NLP/03_lda.qmd)
+
+```{ojs}
+html`${printBadges({fpath: "content/NLP/03_lda.qmd", correction: true})}`
+```
+
+* [Découverte de _Word2Vec_](../NLP/04_word2vec.qmd)
+
+
+```{ojs}
+html`${printBadges({fpath: "content/NLP/04_word2vec.qmd", correction: true})}`
+```
+
+* [Exercices supplémentaires](../NLP/05_exo_supp.qmd)
+
+
+```{ojs}
+html`${printBadges({fpath: "content/NLP/05_exo_supp.qmd", correction: true})}`
+```
+
+::::
+
+
+:::: {.content-visible when-format="ipynb"}
+Se rendre sur la page en question sur [https://pythonds.linogaliana.fr](https://pythonds.linogaliana.fr) pour consulter le contenu.
+::::

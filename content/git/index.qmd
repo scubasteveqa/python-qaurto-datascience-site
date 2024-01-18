@@ -1,0 +1,44 @@
+---
+title: "Git: un outil nécessaire pour les data scientists"
+draft: false
+weight: 70
+slug: git
+icon: git-alt
+icon_pack: fab
+description: |
+  Une partie annexe au cours pour découvrir `Git`,
+  un outil
+  devenu indispensable pour les data scientists
+  afin de mener des projets impliquant
+  du code `Python`.
+type: book
+image: https://ensae-reproductibilite.github.io/website/cards/git/snakedolls.jpg
+categories:
+  - Git
+---
+
+Cette partie du site présente un élément qui n'est pas propre à
+`Python` mais qui est néanmoins indispensable : la pratique de `Git`.
+
+Une grande partie du contenu de la partie provient
+d'un [cours dédié fait avec Romain Avouac](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/slides/img/ghflow.png).
+
+Le chapitre [de présentation de `Git`](introgit.qmd) propose 
+une introduction visant à présenter l'intérêt d'utiliser
+cet outil. Une mise en pratique est proposée
+avec [un cadavre exquis](exogit.qmd).
+
+
+## Utilisation de `Git` avec `Python`
+
+`Git` est à la fois un outil et un langage. Il
+est donc nécessaire d'installer, dans un premier
+temps `Git Bash`, puis de connecter
+son outil préféré pour faire du `Python` (qu'il
+s'agisse de `Jupyter`, `VSCode` ou `PyCharm`). 
+
+
+Cette partie est structurée en 2 temps :
+
+- [Présentation de `Git`](/content/git/introgit.qmd)
+- [Exercice pour découvrir `Git`](/content/git/exogit.qmd)
